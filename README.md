@@ -42,7 +42,7 @@ python3 -m venv venv
 source venv/bin/activate
 # or `source venv/bin/activate.fish` if you use Fish shell
 pip install -r requirements.txt
-cp ./private/config.template.yaml ./private/config.yaml
+cp ./config.template.yaml ./private/config.yaml
 ```
 
 Then, configure `private/config.yaml` with your Discord bot token, desired channel, API endpoint, and other settings you may want to adjust.

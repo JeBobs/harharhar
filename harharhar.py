@@ -8,7 +8,7 @@ import json
 import yaml
 
 CONFIG_FILE = "private/config.yaml"
-TEMPLATE_FILE = "private/config.template.yaml"
+TEMPLATE_FILE = "./config.template.yaml"
 CHARACTERS_FILE = "private/characters.yaml"
 CONTEXTS_DIR = "private/contexts"
 
