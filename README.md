@@ -49,7 +49,7 @@ Then, configure `private/config.yaml` with your Discord bot token, desired chann
 
 ## Character Creation
 
-Users can create characters through Discord, but you can also create characters by defining their characteristics in `private/characters.yml`. For example,
+Users can create characters through Discord, but you can also create characters by defining their characteristics in `private/characters.yaml`. For example,
 
 ```yaml
 Sherlock:
