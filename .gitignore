@@ -1,0 +1,10 @@
+# User data should not be tracked
+private/
+
+# Track the template config file
+!private/config.template.yaml
+
+myenv/
+
+# Mac...
+.DS_Store

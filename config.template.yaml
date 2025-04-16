@@ -1,0 +1,26 @@
+# Discord bot token, create an app at https://discord.com/developers and generate a bot token
+BOT_TOKEN: "" 
+
+# Channel ID to send messages to
+TARGET_CHANNEL_ID: 0000000000000000000
+
+# API endpoint (ChatGPT or compatible API, i.e. exo)
+CHAT_COMPLETIONS_ENDPOINT: "http://127.0.0.1:52415/v1/chat/completions"
+MODELS_ENDPOINT: "http://192.168.1.12:52415/v1/models" 
+
+# List of supported models
+SUPPORTED_MODELS:
+  - "llama-3.1-8b"
+  - "llama-3.3-70b"
+  - "mistral-nemo"
+# Default model to use, can change in Discord with !setmodel command
+DEFAULT_MODEL: "mistral-nemo"
+
+# Timeout for API calls
+API_TIMEOUT: 290 
+
+# Default message for when the API gets overloaded
+ERROR_500_MESSAGE: "Wait a second everyone, please hold your messages while I think..."
+
+# How long to wait before sending the user's message to the API after being buffered
+RETRY_DELAY: 10
